@@ -1,0 +1,207 @@
+
+* { /* '*' permet de s'adresser à tout le monde, toutes les parties */
+    overflow: auto; /* permet que le body s'étende avec le contenu */
+}
+
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+
+p#categorie { /* cela veut dire que chaque paragraph avec l'id categorie aura les propriétés suivantes */
+/* p.categorie veut dire que chaque paragraph avec la classe categorie aura les propriétés suivantes */
+/* p#categorie.categorie veut dire que chaque paragraph avec l'id categorie et la classe categorie aura les propriétés suivantes */
+/* la classe est beaucoup plus utilisée car elle peut être étendue à plusieurs éléments */
+/*On peut renseigner plusieurs types de balises en même temps*/
+    background-color: black;
+    color: white;
+
+    display: inline-block;
+    /*'Block' veut dire que le displaying occupe toute la ligne*/
+    /*'inline' veut dire que le displaying occupe que la place nécessaire*/
+
+    text-align: center;
+    padding-top: 15px;
+    min-width: 100px;
+    min-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+
+p#categorie { /* cela veut dire que chaque paragraph avec l'id categorie aura les propriétés suivantes */
+/* p.categorie veut dire que chaque paragraph avec la classe categorie aura les propriétés suivantes */
+/* p#categorie.categorie veut dire que chaque paragraph avec l'id categorie et la classe categorie aura les propriétés suivantes */
+/* la classe est beaucoup plus utilisée car elle peut être étendue à plusieurs éléments */
+/*On peut renseigner plusieurs types de balises en même temps*/
+    background-color: black;
+    color: white;
+
+    display: inline-block;
+    /*'Block' veut dire que le displaying occupe toute la ligne*/
+    /*'inline' veut dire que le displaying occupe que la place nécessaire*/
+
+    text-align: center;
+    padding-top: 15px;
+    min-width: 100px;
+    min-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+div.categorie {
+    margin-bottom: -20px;
+    margin-top: 60px;
+}
+
+.centre {
+    text-align: center;
+    width: 100%;
+}
+
+div.contenu {
+    background-color: white;
+    margin: 0px 10% 80px 10%;
+    padding: 30px;
+    box-shadow: 0px 0px 20px 5px rgba(9, 3, 3, 0.75);
+}
+
+h1 {
+    text-align: center;
+}
+
+p.description {
+    font-style: italic;
+    font-size: 13px;
+    text-align: center;
+    display: inline-block;
+    max-width: 400px;
+}
+
+div.description {
+    text-align: center;
+}
+
+div.separator {
+    border-bottom: 1px solid gray;
+    width: 100px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.info {
+    position: relative;
+}
+
+table.info {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    color: white;
+    background-color:#6C829DC0;
+    height: 100px;
+    text-align: center;
+}
+
+table.info th {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ingredients, .prepa {
+    width: 45%;
+}
+
+.colone h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-bottom: 10px solid #6C829DC0;
+    border-width: 5px;
+}
+
+.ingredients {
+    display: inline-block;
+}
+
+.ingredients h2 {
+    margin-bottom: 40px;
+}
+
+.ingredients p{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #6C829DC0;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 8px 0;
+}
+
+.prepa {
+    float: right;
+}
+
+.numero {
+    width: 30px;
+    padding: 10px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #6C829DC0;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.explcation {
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+}
+
+.astuces h2 {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 10px solid #6C829DC0;
+    border-width: 5px;
+}
+
+.astuces p {
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.articles table {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    border: 3px solid #6C829DC0;
+}
+
+.articles table th {
+    border: 0px solid #6C829DC0;
+}
+
+.articles table td {
+    text-align: center;
+    border: 2px solid #6C829DC0;
+    padding: 10px;
+    border: 0px solid #6C829DC0;
+    border-top: 1px solid #6C829DC0;
+}
